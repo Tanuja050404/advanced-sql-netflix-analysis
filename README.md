@@ -33,3 +33,7 @@ The objective is to provide **data-driven recommendations** for optimizing conte
 - SQL (PostgreSQL / MySQL)
 - Kaggle dataset
 - Optional: Python (for visualization)
+
+## 🚀 Future Work
+- Integrate SQL analysis with visualization tools (Power BI/Tableau)  
+- Extend dataset to include user ratings for sentiment analysis
