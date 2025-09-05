@@ -1,44 +1,35 @@
-# Netflix Movies and TV Shows Data Analysis using SQL
+# Advanced SQL Project – Data-Driven Content Strategy Optimization (Netflix)
 
-## 📌 Overview
-This project focuses on **analyzing Netflix’s movies and TV shows dataset** using **SQL**.  
-We aim to solve **15 real-world business problems** and uncover insights about **content distribution, ratings, regions, and audience preferences**.
+## 📌 Project Overview
+This project analyzes the **Netflix dataset** using **advanced SQL queries** to derive insights about content production, release trends, and business strategy.  
+The objective is to provide **data-driven recommendations** for optimizing content strategy.
 
----
+## 🔬 Dataset
+- Source: [Netflix Titles Dataset (Kaggle)](https://www.kaggle.com/shivamb/netflix-shows)
+- Size: 8,807 records, 12 columns
+- Key Features: Title, Director, Cast, Country, Release Year, Rating, Duration, Genre
 
-## 🎯 Objectives
-- Analyze the **distribution of movies vs TV shows**
-- Identify **most common ratings**
-- Explore **year-wise, country-wise, and genre-wise trends**
-- Find insights into **directors, actors, and content durations**
-- Solve **15 SQL-based business problems**
+## ⚙️ Approach
+- Wrote **15+ SQL queries** to answer business-driven questions:
+  1. Distribution of Movies vs. TV Shows
+  2. Top 10 Directors by content
+  3. Year-wise content release trend
+  4. Most common genres
+  5. Countries producing maximum shows
+  6. … and more
+- Optimized queries using **CTEs**, **Window Functions**, and **Joins**
 
----
+## 📊 Example Insights
+- Netflix has been steadily **increasing TV show releases since 2015**
+- **Documentaries and Dramas** dominate the content library
+- Content production is heavily skewed towards the **United States, India, and the UK**
 
-## 📂 Dataset
-- **Source:** [Netflix Movies & TV Shows Dataset – Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-- **Total Records:** ~8,800
-- **Key Columns:**  
-  `show_id`, `type`, `title`, `director`, `casts`, `country`,  
-  `date_added`, `release_year`, `rating`, `duration`,  
-  `listed_in`, `description`
+## 📈 Key Business Recommendations
+1. Expand **regional content production** (e.g., Indian dramas are highly represented but still growing).
+2. Invest more in **TV shows** as they show rising trends compared to movies.
+3. Leverage **data-driven genre popularity** for future content investment.
 
----
-
-## 🛠️ Database Schema
-```sql
-CREATE TABLE netflix (
-    show_id      VARCHAR(5),
-    type         VARCHAR(10),
-    title        VARCHAR(250),
-    director     VARCHAR(550),
-    casts        VARCHAR(1050),
-    country      VARCHAR(550),
-    date_added   VARCHAR(55),
-    release_year INT,
-    rating       VARCHAR(15),
-    duration     VARCHAR(15),
-    listed_in    VARCHAR(250),
-    description  VARCHAR(550)
-);
-
+## 🛠️ Tech Stack
+- SQL (PostgreSQL / MySQL)
+- Kaggle dataset
+- Optional: Python (for visualization)
