@@ -5,9 +5,9 @@ This project analyzes the **Netflix dataset** using **advanced SQL queries** to 
 The objective is to provide **data-driven recommendations** for optimizing content strategy.
 
 ## 🔬 Dataset
-- Source: [Netflix Titles Dataset (Kaggle)](https://www.kaggle.com/shivamb/netflix-shows)
-- Size: 8,807 records, 12 columns
-- Key Features: Title, Director, Cast, Country, Release Year, Rating, Duration, Genre
+- Dataset of titles available on Netflix
+- **Size:** 8,807 records, 12 columns  
+- Attributes include: Title, Director, Cast, Country, Release Year, Rating, Duration, Genre.
 
 ## ⚙️ Approach
 - Wrote **15+ SQL queries** to answer business-driven questions:
